@@ -10,6 +10,7 @@ RUN apt-get update && \
     cargo \
     mktorrent \
     rustc \
+    libgdiplus \
     mono-complete && \
     rm -rf /var/lib/apt/lists/*
 
